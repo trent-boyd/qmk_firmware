@@ -145,6 +145,8 @@ extern uint8_t led_lighting_mode;
 extern uint8_t led_enabled;
 extern uint8_t led_animation_breathe_cur;
 extern uint8_t led_animation_direction;
+extern uint8_t led_animation_orientation;
+extern uint8_t led_animation_circular;
 extern uint8_t breathe_dir;
 
 #    define LED_MODE_NORMAL 0  // Must be 0
